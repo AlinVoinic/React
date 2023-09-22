@@ -1,0 +1,156 @@
+.doctor-filler {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 0.5rem;
+  letter-spacing: 1px;
+  color: #07a;
+  text-shadow: 1px 2px 2px rgba(70, 170, 70, 0.75);
+}
+
+.doctor-item {
+  margin: 1rem 0;
+  border: 1px solid #07a;
+}
+
+.doctor-info {
+  padding: 0 0.5rem;
+}
+
+.doctor-review {
+  max-width: 170px;
+  cursor: pointer;
+}
+
+.doctor-appointment {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.doctor-appointment-admin {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
+#edit,
+#delete {
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #4a4;
+  padding: 0.1rem 0.3rem;
+  cursor: pointer;
+}
+
+#edit {
+  background-color: rgba(250, 150, 0, 0.5);
+}
+#delete {
+  background-color: rgba(250, 0, 0, 0.5);
+}
+
+.doctor-image {
+  display: none;
+}
+
+.doctor-icon,
+.doctor-star {
+  vertical-align: revert;
+}
+
+.modal-buttons {
+  margin: 0 0.25rem;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-body p {
+  margin: 0.75rem auto;
+}
+
+.modal-body span {
+  padding-left: 1.25rem;
+}
+
+.doctor-info h3 {
+  color: #07a;
+  font-size: 20px;
+  margin-bottom: 0;
+  text-align: center;
+  /* width: 250px; */
+}
+
+.doctor-appointment button {
+  border: 0px solid #07a;
+  padding: 0.5rem 0.75rem;
+  font-weight: bold;
+  background-color: #07a;
+  color: #efe;
+}
+
+@media (min-width: 768px) {
+  .doctor-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .doctor-image {
+    display: block;
+  }
+
+  .doctor-image:hover,
+  .doctor-info h3:hover,
+  .doctor-appointment button:hover {
+    cursor: pointer;
+  }
+
+  .doctor-filler {
+    font-size: 32px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    flex-grow: 0.925;
+  }
+}
+
+@media (min-width: 1400px) {
+  .doctor-filler {
+    flex-grow: 0.7;
+  }
+
+  .doctor-info {
+    padding: 0.5rem;
+  }
+
+  .doctor-info h3 {
+    color: #07a;
+    font-size: 18px;
+    text-align: left;
+    /* width: 220px; */
+  }
+
+  #edit,
+  #delete {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #4a4;
+    padding: 0.15rem;
+  }
+
+  .doctor-appointment button {
+    border: 0px solid #07a;
+    padding: 0.35rem;
+    font-weight: 600;
+    background-color: #07a;
+    color: #efe;
+  }
+
+  .doctor-appointment-admin {
+    margin: 0;
+  }
+}

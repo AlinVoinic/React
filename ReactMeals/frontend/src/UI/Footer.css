@@ -1,0 +1,44 @@
+.footer {
+  font-size: 14px;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem 0rem;
+  text-align: center;
+  color: #fff;
+  background-color: #07a;
+  position: absolute;
+  /* bottom: 0; */
+}
+
+.phone {
+  display: none;
+}
+
+.map {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-icon {
+  vertical-align: bottom;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    color: white;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    font-size: 14px;
+  }
+
+  .footer-div {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+  }
+
+  .footer-icon {
+    vertical-align: auto;
+  }
+}

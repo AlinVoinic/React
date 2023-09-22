@@ -1,0 +1,124 @@
+.app-form {
+  list-style: none;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+  box-shadow: 0 2px 18px rgba(0, 120, 170, 0.5);
+  border-radius: 6px;
+}
+
+.app-filler {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 1px;
+  padding-bottom: 0.75rem;
+  color: #07a;
+  text-shadow: 1px 2px 2px rgba(70, 170, 70, 0.75);
+}
+
+label,
+select,
+input {
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+label {
+  color: #07a;
+  font-weight: bold;
+}
+
+select,
+input {
+  color: rgb(20, 60, 20);
+}
+
+.calendar {
+  text-align: center;
+}
+
+.submitAppointment {
+  margin-top: 1rem;
+  margin-left: 55%;
+  padding: 0.5rem;
+}
+
+#revokeInfo1 {
+  all: unset;
+}
+
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.spacer {
+  padding: 7.6rem 0 16rem 0;
+}
+
+@media (min-width: 768px) {
+  .app-form {
+    list-style: none;
+    padding: 1rem;
+    width: 90%;
+    border-radius: 6px;
+    margin-bottom: 1.8rem;
+  }
+
+  .app-filler {
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 1rem;
+  }
+
+  .submitAppointment {
+    margin-top: 1rem;
+    margin-left: 76%;
+    padding: 0.5rem;
+  }
+
+  label,
+  select,
+  input {
+    padding: 0.66rem;
+    font-size: 16px;
+  }
+
+  label {
+    font-size: 17px;
+    padding-left: 0.25rem;
+  }
+
+  textarea {
+    padding: 0.5rem;
+  }
+
+  .calendar input {
+    text-align: center;
+  }
+
+  .form-divider {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .stage1 {
+    width: 18rem;
+  }
+
+  .stage2 {
+    width: 15rem;
+  }
+
+  .reviewR {
+    padding: 0 1rem;
+  }
+}

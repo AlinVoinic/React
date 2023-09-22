@@ -1,0 +1,35 @@
+.form-control label,
+.form-control input,
+.form-control textarea {
+  display: block;
+}
+
+.form-control input,
+.form-control textarea {
+  width: 100%;
+  /* font: inherit; */
+  padding: 0.35rem;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+  border-color: #510077;
+}
+
+.form-control--invalid label,
+.form-control--invalid p {
+  color: red;
+}
+
+.form-control--invalid input,
+.form-control--invalid textarea {
+  border-color: red;
+  background: #ffd1d1;
+}
+
+@media (min-width: 768px) {
+  .form-control input,
+  .form-control textarea {
+    padding: 0.66rem;
+  }
+}

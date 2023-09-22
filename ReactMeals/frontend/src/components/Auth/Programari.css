@@ -1,0 +1,94 @@
+.info-divider {
+  width: 70%;
+  margin: 0rem auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.obs-divider {
+  padding: 0 1rem;
+  width: 100%;
+  margin: 0.5rem 5rem 0.5rem 4rem;
+  text-align: left;
+  border: 2px solid #4a4;
+}
+
+.obs-divider1 {
+  padding: 0 2rem;
+  width: 100%;
+  text-align: left;
+}
+
+.obs-divider p {
+  padding: 0 0.25rem;
+}
+
+.row-divider div {
+  padding: 1rem 0;
+}
+
+.stage3 {
+  width: 20rem;
+}
+
+.stage3 label {
+  font-size: large;
+}
+
+.stage3 p {
+  font-weight: bold;
+}
+
+#deleteP {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #4a4;
+  padding: 0.5rem;
+  margin: 1rem auto 0 auto;
+  background-color: rgba(250, 0, 0, 0.5);
+}
+
+.appPic {
+  display: flex;
+  margin: 0 auto;
+  max-width: 780px;
+  max-height: 670px;
+}
+
+@media (max-width: 768px) {
+  .info-divider {
+    width: 100%;
+    margin: 0rem auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .obs-divider {
+    padding: 0.1rem;
+    width: 100%;
+    margin: 0.25rem 2rem 0.25rem 2rem;
+    text-align: left;
+    border: 1px solid #4a4;
+  }
+
+  .obs-divider1 {
+    padding: 0.1rem;
+    width: 100%;
+    text-align: left;
+  }
+
+  .obs-divider p {
+    padding: 0 0.5rem;
+    font-size: 14px;
+  }
+
+  .appPic {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}

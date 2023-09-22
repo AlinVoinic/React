@@ -1,0 +1,85 @@
+.auth-bottom {
+  width: 80%;
+  margin: 0.15rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.submitAuth {
+  margin: 1.5rem 0 0 0;
+  padding: 0.5rem;
+  display: block;
+  border-radius: 5%;
+}
+
+.switchAuth {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  box-shadow: 0 1.5px 18px rgba(0, 120, 170, 0.75);
+  border-radius: 2px;
+  font-size: 15px;
+  border-radius: 5%;
+  background-color: rgba(70, 170, 70, 0.5);
+}
+
+.checkbox {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox input {
+  width: 0.75rem;
+}
+
+.checkbox label {
+  color: #4a4;
+  font-size: 15px;
+}
+
+.checkbox a {
+  color: #07a;
+}
+
+.login-pic {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .checkbox label {
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-right: 1rem; */
+  }
+
+  .checkbox input {
+    margin-bottom: 1rem;
+  }
+
+  .auth-bottom {
+    width: 95%;
+    /* padding: 1rem 0 3.6rem 0.75rem; */
+  }
+
+  .submitAuth {
+    padding: 0.75rem;
+  }
+
+  .form-divider {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .login-pic {
+    display: block;
+    position: absolute;
+    width: 300px;
+    margin: 1rem 0 0 19.5rem;
+  }
+}

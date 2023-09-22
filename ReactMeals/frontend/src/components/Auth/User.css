@@ -1,0 +1,227 @@
+.user-page {
+  padding: 1.5rem 0;
+  display: grid;
+  grid-template-areas:
+    "b h  menu menu a main main main  ha"
+    "b h  menu menu a main main main  ha"
+    "b h  menu menu a main main main  ha";
+  /* grid-template-areas:
+    "a menu menu main main ha"
+    "a menu menu main main ha"
+    "a menu menu main main ha"; */
+}
+
+.right-info {
+  /* padding-left: 2rem; */
+  display: grid;
+  grid-area: main;
+  grid-template-areas: "ab ba asd";
+}
+
+.left-info {
+  grid-area: menu;
+  text-align: center;
+  border-right: 2px solid black;
+}
+
+.user-image {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.user-name {
+  margin: 0.25rem;
+  font-size: 22px;
+}
+
+.user-mail {
+  margin: 0;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#prgmr {
+  font-size: 21px;
+  margin: 2rem 0 0.5rem 0;
+}
+
+.apps {
+  display: flex;
+  justify-content: center;
+}
+
+.apps span {
+  color: #4a4;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.apps p {
+  font-weight: bold;
+}
+
+.left,
+.right {
+  width: 120px;
+}
+
+.left p,
+.right p {
+  margin: 0.5rem;
+}
+
+.sectiune {
+  height: 80px;
+}
+
+.sectiune p {
+  font-weight: 500;
+}
+
+.Info {
+  color: black;
+  cursor: pointer;
+  margin: 1.1rem 0 0 0;
+  padding: 0.5rem;
+  box-shadow: 0 1.5px 18px rgba(0, 120, 170, 0.75);
+  border-radius: 2px;
+  font-size: 15px;
+  border-radius: 5%;
+  background-color: rgba(70, 170, 70, 0.5);
+}
+
+#navInfo {
+  color: black;
+  text-decoration: none;
+}
+
+#submitInfo {
+  all: unset;
+  margin-left: 89%;
+  padding-top: 1.5rem;
+}
+
+#revokeInfo {
+  all: unset;
+  margin-left: 3%;
+}
+
+.logout {
+  margin: 1.1rem 0 0 0;
+  cursor: pointer;
+  padding: 0.5rem;
+  box-shadow: 0 1.5px 18px rgba(170, 130, 0, 0.9);
+  border-radius: 2px;
+  font-size: 15px;
+  border-radius: 5%;
+  background-color: rgb(255, 0, 0, 0.5);
+}
+
+.appointment-layout {
+  width: 60%;
+  margin: 2rem auto;
+  border: 2px solid #4a4;
+  border-top: none;
+}
+
+.NOTLink {
+  text-decoration: none;
+}
+
+.DELETEbutton {
+  all: unset;
+  color: red;
+  cursor: pointer;
+}
+
+.NOTbutton {
+  all: unset;
+  color: green;
+  cursor: pointer;
+}
+
+#updater {
+  max-height: 20rem;
+  overflow: auto;
+  display: none;
+}
+
+#spacerrr {
+  height: 3px;
+}
+
+.spacerrr {
+  height: 4rem;
+}
+
+.spacerr {
+  height: 3.05rem;
+}
+
+.spacerrrr {
+  height: 4.64rem;
+}
+
+@media (max-width: 768px) {
+  .user-page {
+    padding-top: 1rem;
+  }
+
+  .appointment-layout {
+    margin: 0.33rem auto;
+    width: 95%;
+    border: 1px solid #4a4;
+    border-top: none;
+  }
+
+  .user-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-info {
+    padding: 1rem 0 1.5rem 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #4a4;
+  }
+
+  .left-info {
+    padding-bottom: 1rem;
+    border-right: 0;
+    border-bottom: 2px solid #4a4;
+  }
+
+  .user-image {
+    width: 100px;
+  }
+  .user-name {
+    font-size: 17px;
+  }
+  .user-mail {
+    font-size: 14px;
+  }
+
+  #submitInfo {
+    all: unset;
+    margin-left: 85%;
+    padding-top: 1.5rem;
+  }
+
+  #prgmr {
+    font-size: 18px;
+  }
+
+  .apps span {
+    font-size: 18px;
+  }
+
+  .sectiune p {
+    font-weight: normal;
+  }
+
+  .left,
+  .right {
+    width: 100px;
+  }
+}

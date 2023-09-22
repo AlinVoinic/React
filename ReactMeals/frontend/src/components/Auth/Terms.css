@@ -1,0 +1,30 @@
+.terms {
+  padding: 0 2rem;
+  text-align: justify;
+}
+
+.terms h3 {
+  font-size: 20px;
+  color: #07a;
+}
+
+.terms h4 {
+  font-size: 18px;
+  color: #4a4;
+}
+
+.terms p {
+  font-size: 16px;
+  text-indent: 1rem;
+}
+
+@media (min-width: 768px) {
+  .terms h3 {
+    font-size: 22px;
+  }
+
+  .terms p {
+    font-size: 17px;
+    text-indent: 2rem;
+  }
+}
